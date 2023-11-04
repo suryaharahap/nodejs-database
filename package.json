@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-database",
+  "version": "1.0.0",
+  "description": "Learn NodeJS Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Surya Harahap",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@types/jest": "^29.5.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "prisma": "^5.5.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.5.2"
+  }
+}
